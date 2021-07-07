@@ -1,0 +1,21 @@
+1， ffmpeg 命令
+ffplay test.mp4
+用这个命令可以播放 MP4视频。
+
+2，也可以播放流媒体链接
+ffplay rtmp:xxx
+
+3，剪辑多媒体文件
+ffmpeg -i test.mp4
+
+4，
+
+
+
+
+
+
+
+
+
+
