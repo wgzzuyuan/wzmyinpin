@@ -34,7 +34,15 @@ ffmpeg -h long  高级信息
 ffmpeg -h  基本信息
 
 9， 音视频处理流程
-ffmpeg -i test.mp4 -acodec copy -vcodec libx1264 -s 
+ffmpeg -i test.mp4 -acodec copy -vcodec libx1264 -s out.flv
+
+输入文件   编码数据包   解码后数据帧   处理后的数据帧   编码数据包   输出文件 
+ MP4
+
+
+10，伟业：封包，解包   flv mp4
+
+
 
 
 
