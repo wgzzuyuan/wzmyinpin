@@ -1,6 +1,11 @@
 1,   视频的旋转
 
 2，
+c. 音频处理：speexdsp，ffmpeg 等
+d.音频编解码：libfaac，opus，speex，ffmpeg 等
+
+3，
+
 
 
 
