@@ -8,7 +8,34 @@ ffplay rtmp:xxx
 3，剪辑多媒体文件
 ffmpeg -i test.mp4
 
-4，
+4，在windows 上搭建 ffmpeg 命令行环境，也可以在Linux下搭建 ffmpeg 环境。
+
+
+
+5，ffmpeg 要学习的东西
+ffmpeg 命令分厘视频流
+
+ffmpeg PCM数据提起
+
+推流 拉流 
+
+ffmpeg 命令过滤
+
+
+6， ffmpeg fyper fast audio and video encoder 超快音视频编码器
+
+ffplay simple media player 简单媒体播放器
+
+7，ffprobe  simple multimedia streams analyzer 简单多媒体流分析器
+
+8，从上到下，范围依次缩小
+ffmpeg -h full  所有信息
+ffmpeg -h long  高级信息
+ffmpeg -h  基本信息
+
+9， 音视频处理流程
+ffmpeg -i test.mp4 -acodec copy -vcodec libx1264 -s 
+
 
 
 
